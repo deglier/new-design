@@ -1,0 +1,182 @@
+.svg {
+    font-size: 16px;
+}
+
+.svg:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../img/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 16.875em 61em;
+}
+
+.no-svg .svg:before {
+    background-image: url("../img/sprite.png");
+}
+
+
+
+  .svg.svg-archive:before {
+      background-position: -0.625em -0.625em;
+      width: 1.21875em;
+      height: 1.125em;
+  }
+
+
+
+
+  .svg.svg-calendar-light:before {
+      background-position: -0.625em -3em;
+      width: 1.0389375000000003em;
+      height: 1.0625em;
+  }
+
+
+
+
+  .svg.svg-close:before {
+      background-position: -0.625em -5.3125em;
+      width: 2em;
+      height: 2em;
+  }
+
+
+
+
+  .svg.svg-email:before {
+      background-position: -0.625em -8.5625em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svg.svg-facebook:before {
+      background-position: -0.625em -12.8125em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svg.svg-feed:before {
+      background-position: -0.625em -17.0625em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svg.svg-file:before {
+      background-position: -0.625em -21.3125em;
+      width: 0.625em;
+      height: 0.75em;
+  }
+
+
+
+
+  .svg.svg-github:before {
+      background-position: -0.625em -23.3125em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svg.svg-gplus:before {
+      background-position: -0.625em -27.5625em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svg.svg-heart:before {
+      background-position: -0.625em -31.8125em;
+      width: 1.1818749999999998em;
+      height: 1em;
+  }
+
+
+
+
+  .svg.svg-linkedin:before {
+      background-position: -0.625em -34.0625em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svg.svg-logo:before {
+      background-position: -0.625em -38.3125em;
+      width: 15.625em;
+      height: 3.47225em;
+  }
+
+
+
+
+  .svg.svg-logo-short:before {
+      background-position: -0.625em -43.0625em;
+      width: 11.5586875em;
+      height: 1.75em;
+  }
+
+
+
+
+  .svg.svg-menu:before {
+      background-position: -0.625em -46.0625em;
+      width: 1.35em;
+      height: 1.125em;
+  }
+
+
+
+
+  .svg.svg-tags-dark:before {
+      background-position: -0.625em -48.4375em;
+      width: 1.4101875000000001em;
+      height: 1.125em;
+  }
+
+
+
+
+  .svg.svg-tags-light:before {
+      background-position: -0.625em -50.8125em;
+      width: 1.3318124999999998em;
+      height: 1.0625em;
+  }
+
+
+
+
+  .svg.svg-twitter:before {
+      background-position: -0.625em -53.125em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svg.svg-whatsapp:before {
+      background-position: -0.625em -57.375em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+

@@ -1,0 +1,100 @@
+{
+  "in": "src",
+  "out": "build",
+  "requirejs": "bower_components/requirejs/require.js",
+
+  "html": {
+    "readPaths": [
+      "src/**/*.html"
+    ],
+    "watch": [
+      "src/**/*.html"
+    ],
+    "out": "/"
+  },
+
+  "pug": {
+    "readPaths": [
+      "src/views/**/*.pug"
+    ],
+    "watch": [
+      "src/views/**/*.pug"
+    ],
+    "out": "/"
+  },
+
+  "fonts": {
+    "readPaths": [
+      "src/fonts/**/*"
+    ],
+    "watch": [
+      "src/fonts/**/*"
+    ],
+    "out": "/assets/fonts"
+  },
+
+  "sass": {
+    "readPaths": [
+      "src/sass/main.sass"
+    ],
+    "prefixs": ["> 1%", "last 2 versions", "firefox >= 4", "safari 8", "IE 9", "IE 10", "IE 11" ],
+    "watch": [
+      "src/sass/**/*.sass"
+    ],
+    "out": "/assets/css"
+  },
+
+  "scripts": {
+    "readPaths": [
+      "src/scripts/js/**/*.js"
+    ],
+    "watch": [
+      "src/scripts/js/**/*.js"
+    ],
+    "out": "/assets/js"
+  },
+
+  "ts": {
+    "readPaths": [
+      "src/scripts/ts/**/*.ts"
+    ],
+    "watch": [
+      "src/scripts/ts/**/*.ts"
+    ],
+    "out": "/scripts/js"
+  },
+
+  "images": {
+    "readPaths": [
+      "src/img/**/*.{jpg,svg,png,gif}"
+    ],
+    "options":{
+      "optimizationLevel": 5, "progessive": true, "interlaced": true
+    },
+    "watch": [
+      "src/img/**/*.{jpg,svg,png,gif}"
+    ],
+    "out": "/assets/img"
+  },
+
+  "svg": {
+    "readPaths": [
+      "src/svg/**/*.svg"
+    ],
+    "options":{
+      "padding": "10",
+      "baseSize": 16,
+      "common": "svg",
+      "svgId": "svg-%f",
+      "cssFile": "sass/_sprite.scss",
+      "svg": { 
+        "sprite": "img/sprite.svg"
+      }
+    },
+    "svgFile":"src/img/sprite.svg",
+    "watch": [
+      "src/svg/**/*.svg"
+    ],
+    "out": "src/"
+  }
+}
