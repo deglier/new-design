@@ -1,0 +1,2 @@
+define(["require","exports"],function(t,e){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n=function(){function t(t,e,n){this.toggleId=document.getElementById(t),this.menuId=document.getElementById(e),this.changeClass=n||"is-active",this.addEvents(this.toggleId)}return t.prototype.addEvents=function(t){var e=this;t.addEventListener("click",function(){e.toggle()})},t.prototype.toggle=function(){console.log("click"),this.menuId.classList.toggle(this.changeClass)},t}();e.default=n});
+//# sourceMappingURL=Toggle.js.map
