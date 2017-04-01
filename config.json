@@ -86,7 +86,7 @@
       "baseSize": 16,
       "common": "svg",
       "svgId": "svg-%f",
-      "cssFile": "sass/_sprite.scss",
+      "cssFile": "sass/vendor/sprite.scss",
       "svg": { 
         "sprite": "img/sprite.svg"
       }

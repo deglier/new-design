@@ -1,7 +1,15 @@
-@import '_sprite.scss'
+@charset 'utf-8'
 
-$base-size: 16
+// vendors
+@import 'vendor/reset'
+@import 'vendor/sprite'
 
-@function px2rem($size)
-  $rem: $size/$base-size
-  @return #{$rem}rem
+// utils
+@import 'newDesign/vars'
+@import 'newDesign/mixins'
+@import 'newDesign/functions'
+
+@import 'newDesign/base'
+
+//Components
+@import 'newDesign/components/all'

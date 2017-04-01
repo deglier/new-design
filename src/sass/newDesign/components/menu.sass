@@ -1,0 +1,55 @@
+@charset 'uft-8'
+
+.menu
+  opacity: 0
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  background-color: rgba($c-grey-dark, .98)
+  transition: opacity $ease
+  z-index: -9999999
+  
+  &.is-active
+    opacity: 1
+    transition: opacity $ease
+    z-index: 9999999
+  
+  a
+    color: $link-nav
+
+  &-inner // .menu-inner
+    padding: toRem(25)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    align-items: center
+    overflow-y: auto
+  
+  &-content // .menu-content
+    display: flex
+    flex-direction: column
+    justify-content: center
+    flex-grow: 1
+
+  &-footer // .menu-footer
+    text-align: center
+    bottom: 0
+    &-item, // .menu-footer-item
+      margin: toRem(30) 0 0 0
+      &:first-of-type
+        margin: 0
+
+.list
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  font-size: toRem($h-size-6)
+  &-item
+    padding: toRem(15) 0
+
+.social-list
+  display: flex
+  &-item
+    margin: 0 toRem(15)

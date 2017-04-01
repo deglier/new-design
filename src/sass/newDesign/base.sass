@@ -1,0 +1,17 @@
+
+html
+  font-family: $f-sans-serif
+  color: $c-black-bis
+  font-size: toRem(16)
+  line-height: $f-lineHeight
+  background-color: $c-background
+
+// Heading
+@each $size, $value in $h-sizes
+  h#{$size}
+    color: $c-black
+    font-size: toRem($value)
+    font-weight: $fw-bold
+
+a
+  text-decoration: none
